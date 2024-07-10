@@ -22,7 +22,7 @@ html {
 
 }
 .bg{
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 #hp{
     font-size: 16px;
@@ -253,20 +253,23 @@ font-weight: 700;
 /*I need support part starts*/
 .ins{
     max-width: 1140px;
-    max-height: 314px;
+    height: 370px;
     margin: 0% auto;
-    background-color: rgba(0, 0, 0, 0.71);
     background-image: url("../asset/handshake.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
     margin-bottom: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .insc{
     padding: 30px;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -281,12 +284,10 @@ font-weight: 700;
 #insh{
     font-size: 42px;
     font-weight: 800;
-    text-align: center;
 }
 #insp{
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
 }
 input[type="text"]{
     width: 540px;
@@ -302,7 +303,7 @@ input[type="text"]{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     font-size: 20px;
-font-weight: 600;
+    font-weight: 600;
 }
 /*I need support part ends*/
 

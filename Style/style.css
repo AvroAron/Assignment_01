@@ -24,7 +24,6 @@
     text-align: center;
     margin-bottom: 7px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -33,7 +32,7 @@
 }
 .banner p{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -61,9 +60,9 @@
     background: rgba(13, 19, 33, 0.02);
     margin-bottom: 30px;
 }
-.wwd h2{
+.wwd h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 39px;
     font-weight: 800;
 }
 #wwdp{
@@ -110,6 +109,7 @@
     align-items: center;
     text-align: center;
     margin: 0% auto;
+    margin-bottom: 30px;
 }
 #mip{
     margin-bottom: 30px;
@@ -125,6 +125,123 @@ border-radius: 16px;
     border-radius: 16px;
 }
 
-
-
 /*My Inspiration section ends*/
+
+
+
+/*my current target section*/
+.mct{
+    max-width: 1140px;
+    max-height: 463px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#mcth{
+    text-align: center;
+}
+#mctp{
+    text-align: center;
+}
+#c1{
+    max-width: 364px;
+    max-height: 300px;
+    border-radius: 16px;
+
+}
+#c1{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+#c2{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+#c3{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/*my current target section*/
+
+/*I need support part starts*/
+.ins{
+   
+    max-width: 1140px;
+    max-height: 314px;
+    margin: 0% auto;
+    background-image: url("../asset/handshake.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+.insc{
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f1{
+    margin-right: 20px;
+    
+}
+#insh{
+    text-align: center;
+}
+#insp{
+    text-align: center;
+}
+input[type="text"]{
+    width: 540px;
+    height: 47px;
+    padding-left: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px
+}
+#insb{
+    width: 120px;
+    height: 48px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+/*I need support part ends*/
+
+/*footer starts*/
+.footer{
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+}
+.fd{
+    max-width: 1920px;
+    max-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    background: rgba(105, 105, 105, 0.078);
+}
+#logo{
+    display: flex;
+    gap: 20px;
+}
+/*footer ends*/

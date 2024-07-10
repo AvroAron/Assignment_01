@@ -24,12 +24,12 @@
     text-align: center;
     margin-bottom: 7px;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .banner p{
     text-align: center;
@@ -59,6 +59,7 @@ text-align: center;
     margin: 0% auto;
     padding: 97px 80px;
     background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 30px;
 }
 .wwd h2{
     text-align: center;
@@ -95,8 +96,35 @@ text-align: center;
     margin-bottom: 10px;
 }
 
-
-
-
-
 /*why web dev section*/
+
+
+
+/*My Inspiration section starts*/
+
+.mi{
+    max-width: 1140px;
+    max-height: 777px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0% auto;
+}
+#mip{
+    margin-bottom: 30px;
+}
+.video{
+    max-width: 1140;
+    max-height: 614;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+    padding: 32px;
+}
+.video iframe{
+    border-radius: 16px;
+}
+
+
+
+/*My Inspiration section ends*/
